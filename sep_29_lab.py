@@ -39,11 +39,15 @@ if n != 0:
 
 '''
 
+
+
 a = list('абвгдежзийклмнопрстуфхцчшщъыьэюя   ')
 for i in range(7):
-    print('|', a[i].upper(), a[i], '|', '|', a[i+1].upper(), a[i+1], '|', '|', a[i+2].upper(),
-          a[i+2], '|', '|', a[i+3].upper(), a[i+3], '|', '|', a[i+4].upper(), a[i+4], '|', sep='')
+    print('--------------------\n|' if i == 0 else '|', a[i].upper(), a[i], '|', '|', a[i + 1].upper(), a[i + 1], '|', '|', a[i + 2].upper(), 
+              a[i + 2], '|', '|', a[i + 3].upper(), a[i + 3], '|', '|', a[i + 4].upper(), a[i + 4], '|', sep='',
+              end="\n--------------------\n")
     del a[i+1]
     del a[i+1]
     del a[i+1]
     del a[i+1]
+
