@@ -27,7 +27,7 @@ while text[k] != '(':
     k += 1
 k += 1
 while text[k] != ')':
-    print(text[i], end='')
+    print(text[k], end='')
     k += 1
 
 # Задание №3
