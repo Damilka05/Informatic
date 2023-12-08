@@ -12,7 +12,7 @@
 '''
 from random import randint
 
-'''
+
 # 1
 
 n = int(input('Задание 1. Введите размер '))
@@ -36,9 +36,8 @@ for i in range(n):
         ans = arr[i][2]
 print(ans)
 print(max(arr[1]))
-'''
 
-'''
+
 # 2
 print('Задание 2')
 m, n = int(input('m: ')), int(input('n: '))
@@ -65,9 +64,8 @@ for i in range(m):
         print(arr[i][j], end=' ')
     print()
 
-'''
 
-'''
+
 def f(a):
     n = sum(a[0])
     for i in range(1, len(a)):
@@ -90,7 +88,7 @@ for i in range(n):
      arr.append(brr)
 
 print(f(arr))
-'''
+
 
 arr = list()
 n = int(input('Задание 4. Порядок матрицы n:'))

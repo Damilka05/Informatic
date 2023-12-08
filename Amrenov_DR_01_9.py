@@ -28,7 +28,6 @@
 
 
 from matplotlib import pyplot as plt
-import math
 import numpy as np
 
 def f(x, a, b):
